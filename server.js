@@ -3,8 +3,8 @@ const express = require("express");
 const http = require("http");
 const path = require("path");
 const socketio = require("socket.io");
-const { userjoin, getcurrentuser } = require('./untils/users');
-const formatmessage = require('./untils/messages');
+const { userjoin, getcurrentuser } = require('.users');
+const formatmessage = require('.messages');
 
 const app = express();
 const server = http.createServer(app);
